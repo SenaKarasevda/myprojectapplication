@@ -1,6 +1,9 @@
+import 'package:gameapp/data/data.dart';
+
 class TileModel{
   String imageAssetPath;
   bool isSelected;
+
 
   TileModel({this.imageAssetPath,this.isSelected});
 
@@ -18,5 +21,7 @@ class TileModel{
   bool getIsSelected(){
     return isSelected;
   }
+
+
 
 }
